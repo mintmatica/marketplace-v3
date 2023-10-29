@@ -120,6 +120,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
       <Container maxWidth="lg">
         <div className={styles.container}>
           <div className={styles.metadataContainer}>
+          <h1 className={styles.title}>{nft.metadata.name}</h1>
             <ThirdwebNftMedia
               metadata={nft.metadata}
               className={styles.image}
@@ -206,7 +207,6 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
               </div>
             )}
             <h1 className={styles.title}>{nft.metadata.name}</h1>
-            <p className={styles.collectionName}>Token ID #{nft.metadata.id}</p>
 
             <Link
               href={`/profile/${nft.owner}`}

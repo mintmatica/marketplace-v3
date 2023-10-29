@@ -19,7 +19,7 @@ export function Navbar() {
               src="/logo.png"
               width={48}
               height={48}
-              alt="NFT marketplace sample logo"
+              alt="NFT marketplace from mintmatica"
             />
           </Link>
 

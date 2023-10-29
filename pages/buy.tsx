@@ -11,8 +11,8 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Buy NFTs</h1>
-      <p>Browse which NFTs are available from the collection.</p>
+      <h1>Buy Futuristic Generative AI NFTs</h1>
+      <p>The latest NFTs and digital asset available at Mintmatica</p>
       <NFTGrid
         data={data}
         isLoading={isLoading}
